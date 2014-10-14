@@ -1,4 +1,4 @@
-GuessPattern
+MindViz
 ============
 
 5-minute Lecture about Human Interface Devices, played
