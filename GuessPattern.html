@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Pattern Concentration</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/nv.d3.css" rel="stylesheet" type="text/css">
+    <script src="lib/d3/d3.min.js"></script>
+    <script src="lib/nv.d3.min.js"></script>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/underscore/underscore.js"></script>
+    <script src="lib/backbone/backbone.js"></script>
+  </head>
+  <body>
+    <table class="table-main" style="" align="center"> <!-- cellpadding="48" -->
+      <tr class="row-main">
+        <td class="score" id="score" align="center">
+          <div class="timerDiv"></div>
+          <button class = "startButton" style="height: 240px; width: 360px; font-size: 64;">BEGIN</button>
+        </td>
+        <td class="slides" id="slides"></td>
+      </tr>
+    </table>
+      <div class="d3Data">
+        <svg class="chartSVG">
+        </svg>
+      </div>
+    <audio class="mp3Player" id="mp3PlayerID" controls style="width:0px;">
+    </audio>
+  </body>
+    <script src="src/slides.js"></script>
+    <script src="src/pageData.js"></script>
+    <script src="src/chart.js"></script>
+    <script src="src/stopwatch.js"></script>
+    <script src="src/main.js"></script>
+</html>
